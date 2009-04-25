@@ -1,0 +1,14 @@
+f = File.new('arquivo.txt', 'w+')
+f << "primeira linha\n"
+f << "segunda linha\n"
+
+1.upto(5){|v| f << " teste numero #{v} \n" }
+=begin
+f = File.new("/dev/tty2", "w")
+1_000_000.times do |i|
+  f << "FUNCIONA !!! #{i}\n"
+  #Kernel.sleep(1)
+end
+=end
+
+

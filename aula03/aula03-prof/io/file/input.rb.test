@@ -1,0 +1,18 @@
+#le o arquivo inteiro
+#puts File.read('arquivo.txt')
+
+#abri o arquivo
+f = File.open('arquivo.txt', 'r')
+
+#iterando sobre o arquivo
+f.each{|row| puts "Esta eh a linha #{row}"}
+
+#ou....
+#iterando sobre o arquivo tambem
+f.each do |row| 
+  puts "Esta eh a linha #{row}" 
+end
+
+#criando um array com o conteudo do arquivo
+puts File.readlines('arquivo.txt').inspect
+

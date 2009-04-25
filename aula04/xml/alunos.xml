@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alunos>
+  <aluno>
+    <id>
+      1
+    </id>
+    <nome>
+      JoÃ£o
+    </nome>
+  </aluno>
+  <aluno>
+    <id>
+      2
+    </id>
+    <nome>
+      AndrÃ©ia
+    </nome>
+  </aluno>
+  <aluno>
+    <id>
+      3
+    </id>
+    <nome>
+      Rafael
+    </nome>
+  </aluno>
+</alunos>

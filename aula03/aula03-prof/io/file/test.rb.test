@@ -1,0 +1,5 @@
+if File.exists? 'arquivo.txt'
+  puts "arquivo existe"
+end
+
+ 
